@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Empowerment Technology</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Empowerment Technology</h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#topics">Topics</a></li>
+        <li><a href="#resources">Resources</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <section id="hero">
+    <div class="hero-content">
+      <h2>Welcome to Empowerment Technology</h2>
+      <p>Learn how technology can empower individuals and communities.</p>
+      <a href="#topics" class="btn">Explore Topics</a>
+    </div>
+  </section>
+  
+  <section id="about">
+    <div class="container">
+      <h2>About Empowerment Technology</h2>
+      <p>Empowerment technology refers to the use of digital tools and platforms to enhance the capabilities and opportunities of individuals and communities, particularly those who are marginalized or disadvantaged. It focuses on providing access to information, education, resources, and skills to empower people and improve their lives.</p>
+      <p>One of the key aspects of empowerment technology is its ability to bridge the digital divide by ensuring equitable access to technology and digital resources. It recognizes that in today's interconnected world, access to information and technology is crucial for participation in the social, economic, and political spheres. Empowerment technology seeks to empower marginalized communities, disadvantaged individuals, and underserved populations by providing them with the necessary tools, skills, and resources to thrive in the digital age.</p>
+      <p>In conclusion, empowerment technology holds tremendous potential to transform lives, foster inclusivity, and drive positive change. By leveraging technology to provide access, amplify voices, and enable learning, empowerment technology empowers individuals to overcome obstacles, shape their own destinies, and contribute to a more equitable and empowered society. It is a powerful force that harnesses the digital realm to uplift, inspire, and create opportunities for all.</p>
+
+      <!-- <img src="https://covers.vitalbook.com/vbid/9789719806950/width/200" alt="About Image"> -->
+      <img src="https://img.freepik.com/free-vector/hand-drawn-flat-design-innovation-concept_52683-78089.jpg?w=826&t=st=1685273764~exp=1685274364~hmac=6975cf6b262ad3fbb987e1d3753513eeb4b60350dc7f7954ecb528d2dd4e754d" width="300px" height="200px" alt="About Image">
+      <img src="https://img.freepik.com/free-vector/virtual-reality-friends-cartoons_18591-52217.jpg?w=740&t=st=1685273764~exp=1685274364~hmac=74287428d551d750d6b170fd305280200a8ee4036307253f95221c7f804a3bd8" width="200px" height="200px" alt="About Image">
+      <img src="https://img.freepik.com/free-vector/hand-drawn-flat-design-innovation-concept_52683-78090.jpg?w=826&t=st=1685273880~exp=1685274480~hmac=846c2d005a80e41d222472cf9739c20cbb577d9ab43eb236a326db824ceae45c" width="250px" height="200px" alt="About Image">
+
+
+      
+    </div>
+  </section>
+  
+  <section id="topics">
+    <div class="container">
+      <h2>Topics</h2>
+      <ul>
+        <li>Internet and Digital Literacy</li>
+        <li>Social Media and Online Activism</li>
+        <li>E-Learning and Remote Education</li>
+        <li>Entrepreneurship and E-Commerce</li>
+        <li>Open Source and Collaboration</li>
+        <li>Mastering Home Cooking: Empowering Your Inner Chef</li>
+        <li>Food and Culture</li>
+      </ul>
+    </div>
+  </section>
+  
+  <section id="resources">
+    <div class="container">
+      <h2>Resources</h2>
+      <ul>
+        <li><a href="https://depedtambayan.net/wp-content/uploads/2021/11/ADMSHS_Emp_Tech_Q2_M12_Multimedia_and_ICT_FV.pdf">Empowerment Technology Guidebook</a></li>
+        <li><a href="https://ictcom444251764.wordpress.com/2018/03/31/empowerment-technologies-lessons-1-15/">Online Courses and Tutorials</a></li>
+        <li><a href="https://www.nationalbookstore.com/books/18612-empowerment-technology-k-12-information-and-communications-technology-in-business-and-society.html">Recommended Books</a></li>
+        <li><a href="https://www.washington.edu/doit/sites/default/files/atoms/files/Chapter-9-Use-technology-as-an-empowering-tool.pdf">Useful Websites and Tools</a></li>
+      </ul>
+    </div>
+  </section>
+  
+  <footer>
+    <div class="container">
+      <p>Made by <b>Mayeth Gonzales</b>, <b>Paulyn Bendulo</b>, <b>Shiela Mae Abatayo</b>, <b>Mary Joy Velonta</b>
+    </div>
+  </footer>
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.1/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.22.1/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyBgJmiS7fLNoV1dPLWh0LH5SdF7SOO99wg",
+      authDomain: "empowerment-technology-d983e.firebaseapp.com",
+      projectId: "empowerment-technology-d983e",
+      storageBucket: "empowerment-technology-d983e.appspot.com",
+      messagingSenderId: "175669563555",
+      appId: "1:175669563555:web:7b8c559f97143cc54faf16",
+      measurementId: "G-532W000EEE"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
+  <!-- <script>
+    alert('Better view on Desktop Mode')
+  </script> -->
+  <script>
+    function checkMobileMode() {
+        var userAgent = navigator.userAgent.toLowerCase();
+        var isMobile = /mobile|android|iphone|ipad|iemobile|blackberry|opera mini/i.test(userAgent);
+        
+        if (isMobile) {
+            alert("Better view on Desktop Mode");
+        }
+    }
+</script>
+</body>
+</html>
